@@ -19,6 +19,7 @@ textarea{
 }
 a{
 	text-decoration: none;
+	color: #656565;
 }
 /*清浮动*/
 .clearfix:after{
@@ -27,5 +28,6 @@ a{
 	clear: both;
 }
 .clearfix{
-	zoom: 1;
+	zoom: 1; 
 }
+
