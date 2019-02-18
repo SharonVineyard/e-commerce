@@ -13,6 +13,7 @@ ol,ul,li{
 }
 input,select,textarea{
 	outline: none;
+	border:none;
 }
 textarea{
 	resize: none;
@@ -29,5 +30,11 @@ a{
 }
 .clearfix{
 	zoom: 1; 
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
 }
 

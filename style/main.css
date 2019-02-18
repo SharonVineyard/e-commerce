@@ -7,12 +7,6 @@
 	margin-left: auto;
 	margin-right: auto;
 }
-.leftAre{
-	float: left;
-}
-.rightAre{
-	float: right;
-}
  /*topBar*/
  .topBar{
  	height: 31px;
@@ -36,3 +30,52 @@
  	padding-left: 41px;
  	padding-top: 13px;
  }
+ .search_box{
+ 	width: 430px;
+ 	padding-top: 23px;
+ 	padding-left: 185px;
+ }
+ .serach_text{
+ 	width: 350px;
+ 	height: 35px;
+ 	/*css hack \9表示所有ie浏览器*/
+ 	line-height: 35px\9;
+ 	padding: 0 5px;
+ }
+ .search_btn{
+ 	width: 70px;
+ 	height: 35px;
+ 	font-size: 14px;
+ 	font-family: "微软雅黑";
+ 	background-color: #FF8C00;
+ 	color: #FFF;
+ }
+ /*购物车*/
+ .shopCar{
+ 	width: 145px;
+ 	height: 35px;
+ 	background-color:#FF8C00;
+ 	margin-top: 23px;
+ 	font-size: 14px;
+ 	font-family: "微软雅黑";
+ 	color: #FFF;
+ 	margin-right: 59px;
+ 	line-height: 35px;
+ }
+ .shopText{
+ 	height: 100%;
+ 	width: 87px;
+ 	border-right: #E27A00 solid 1px;
+ 	background:url("../images/icon/shopCar.jpg") 10px center no-repeat;
+ 	/*文本缩进*/
+ 	text-indent: 40px;
+ }
+.shopNum{
+	width: 19px;
+	height: 35px;
+	border-left: #FF9C01 solid 1px;
+	background:url("../images/icon/arrow.jpg") 33px center no-repeat;
+	text-align: right;
+	padding-right: 37px;
+	
+}
