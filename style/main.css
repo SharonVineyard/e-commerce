@@ -77,5 +77,83 @@
 	background:url("../images/icon/arrow.jpg") 33px center no-repeat;
 	text-align: right;
 	padding-right: 37px;
+}
+/*导航*/
+.navBox{
+	height: 35px;
+	background-color: #1369C0;
+	color: #FFF;
+}
+.nav,.shopClass{
+	font-family: "微软雅黑";
+}
+.nav{
+	line-height: 35px;
+}
+.nav li{
+	float: left;
+}
+.nav a{
+	height: 35px;
+	display: inline-block;
+	padding: 0 35px;
+	color: #FFF;
+}
+.nav .active{
+	background-color: #4593FD;
+}
+.shopClass i{
+	width: 15px;
+	height: 9px;
+	background: url("../images/icon/jiantou.gif") left center no-repeat;
+	overflow: hidden;
+	display: inline-block;
+	margin-left: 11px;
+}
+.shopClass h3{
+	line-height: 35px;
+	/*水平方向的对齐方式*/
+	text-align: center;	
+}
+
+.shopClass{
+	width: 190px;
+	position: relative;
+}
+.shopClass_show{
+	background-color: #4593fd;
+	position: absolute;
+	left: 0;
+	top: 35px;
+	width: 100%;
+}
+.shopClass_item{
+	padding: 14px 10px;
+	border-top: 1px solid #5aa1fe;
+	border-bottom: 1px solid #3487f2;
+}
+.shopClass_item .b{
+	font: 14px/1 "微软雅黑";
 	
+}
+.shopClass_item a{
+	color: #FFF;
+}
+.shopClass_item dt{
+	height: 24px;
+	background: url("../images/shop_sj.png") right center no-repeat;
+}
+.aLink{
+	width: 48px;
+	height: 20px;
+	background:url("../images/alink_bg.png") left center no-repeat;
+	font-size: 12px;
+	font-family: "新宋体";
+	line-height: 20px;
+	display: inline-block;
+	text-align: center;
+	border-radius: 9px;
+}
+.aLink:hover{
+	text-decoration: underline;
 }
