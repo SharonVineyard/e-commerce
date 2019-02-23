@@ -1,11 +1,12 @@
 /*公用*/
 .box{
 	width: 1160px;
+	margin-left: auto;
+	margin-right: auto;
 }
 .comWidth{
 	width: 1000px;
-	margin-left: auto;
-	margin-right: auto;
+	
 }
 .hide{
 	display: none;
@@ -232,4 +233,46 @@
 	height: 12px;
 	display: inline-block;
 	margin-left: 7px;
+}
+
+/*banner*/
+.banner_bar{
+	width: 810px;
+	height: 326px;
+	float: right;
+	position: relative;
+	overflow: hidden;
+}
+.imgBox{
+	width: 1620px;
+	height: 326px;
+	position: absolute;
+	left: 0;
+	top: 0;  
+}
+.imgBox li{
+	float: left;
+}
+.imgBox img{
+	width: 810px;
+	height: 326px;
+	display: block;
+}
+.imgNum{
+	position: absolute;
+	left: 0;
+	bottom: 15px;
+	width: 100%;
+	text-align: center;
+}
+.imgNum a{
+	width: 20px;
+	height: 5px;
+	overflow: hidden;
+	background-color: white;
+	display: inline-block;
+	margin: 0 3px;
+}
+.imgNum .active{
+	background-color: #FF7700;
 }
