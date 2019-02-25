@@ -4,9 +4,14 @@
 	margin-left: auto;
 	margin-right: auto;
 }
+.leftArea{
+	float: left;
+}
+.rightArea{
+	float: right;
+}
 .comWidth{
 	width: 1000px;
-	
 }
 .hide{
 	display: none;
@@ -132,6 +137,7 @@
 	left: 0;
 	top: 35px;
 	width: 100%;
+	
 }
 
 .shopClass_item{
@@ -150,10 +156,10 @@
 	text-decoration: underline;
 }
 .shopClass_item dt{
-	height: 24px;
+	height: 19px;
 	background: url("../images/shop_sj.png") right center no-repeat;
 }
-.aLink{
+.shopClass .aLink{
 	width: 48px;
 	height: 20px;
 	background:url("../images/alink_bg.png") left center no-repeat;
@@ -236,16 +242,15 @@
 }
 
 /*banner*/
+.banner{
+	margin-bottom: 15px;
+}
 .banner_bar{
-	width: 810px;
-	height: 326px;
 	float: right;
 	position: relative;
 	overflow: hidden;
 }
 .imgBox{
-	width: 1620px;
-	height: 326px;
 	position: absolute;
 	left: 0;
 	top: 0;  
@@ -254,8 +259,6 @@
 	float: left;
 }
 .imgBox img{
-	width: 810px;
-	height: 326px;
 	display: block;
 }
 .imgNum{
@@ -275,4 +278,56 @@
 }
 .imgNum .active{
 	background-color: #FF7700;
+}
+.banner_img,
+.banner_img img{
+	width: 810px;
+	height: 325px;
+}
+.banner_img .imgBox{
+	width: 1620px;
+	height: 325px;
+}
+.bannerShopList,
+.bannerShopList .img{
+	width: 190px;
+	height: 400px;
+}
+.bannerShopList .imgBox{
+	width: 380px;
+	height: 400px;
+}
+/*商品标题*/
+.shopTit{
+	height: 44px;
+	line-height: 44px;
+	font-family: "微软雅黑";
+	margin-bottom: 15px;
+}
+.shopTit h3{
+	font-size: 24px;
+	float: left;
+	font-weight: normal;
+	padding-left: 15px;
+}
+.icon{
+	width: 44px;
+	height: 44px;
+	float: left;
+	background: url(../images/icon/shopIcon.gif) no-repeat left top;
+}
+.more{
+	float: right;
+	font-family: "宋体";
+}
+.more:hover{
+	text-decoration: underline;
+}
+
+/*商品列表*/
+.shopList .leftArea{
+	width: 190px;
+}
+.shopList .rightArea{
+	width: 810px;
 }
