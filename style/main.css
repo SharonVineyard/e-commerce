@@ -20,6 +20,9 @@
 	display: block;
 }
  /*topBar*/
+ .headerBar{
+	 margin-bottom: 17px;
+ }
  .topBar{
  	height: 31px;
  	background-color: #F7F7F7;
@@ -129,7 +132,7 @@
 .shopClass h3{
 	line-height: 35px;
 	/*水平方向的对齐方式*/
-	text-align: center;	
+	text-align: center;
 }
 .shopClass_show{
 	background-color: #4593fd;
@@ -137,7 +140,7 @@
 	left: 0;
 	top: 35px;
 	width: 100%;
-	
+
 }
 
 .shopClass_item{
@@ -148,7 +151,7 @@
 }
 .shopClass_item .b{
 	font: 14px/1 "微软雅黑";
-	
+
 }
 .shopClass_item a{
 	color: #FFF;
@@ -254,7 +257,7 @@
 .imgBox{
 	position: absolute;
 	left: 0;
-	top: 0;  
+	top: 0;
 }
 .imgBox li{
 	float: left;
@@ -341,7 +344,7 @@
 }
 /*商品列表右侧*/
 .shop_top,.shop_bottom{
-/*一个没有宽度的元素，他的大小是用本身的尺寸 - margin - padding - border 
+/*一个没有宽度的元素，他的大小是用本身的尺寸 - margin - padding - border
 这个最终算出一个内容宽度来，因为一个没有宽度的元素，他的宽度会永远保持和内容一样宽，
 所以他只能减去自己的各种值。那这个时候,本身的尺寸剪掉一个负margin的值，
 那就是本身尺寸 - -margin   数学中 负负得正，故这里就相当于把父级的808扩大了4像素*/
@@ -422,7 +425,7 @@
 }
 .footer a{
 	color: #000;
-	
+
 }
 .footer a:hover{
 	color: #F60;
@@ -432,5 +435,45 @@
 }
 .web img{
 	margin: 0 12px;
-
+}
+/* 产品分类 */
+.products .leftArea{
+	width: 185px;
+	/* float: left; */
+}
+.products .rightArea{
+	width: 810px;
+	/* float: left; */
+}
+/* 产品分类导航 */
+.leftNav{
+	background-color: #F3F3F3;
+	border: #D7D7D7 solid 1px;
+}
+.nav_title{
+	height: 34px;
+	line-height: 34px;
+	font-size: 14px;
+	font-family: '宋体';
+	border-bottom: #D7D7D7 solid 1px;
+	text-align: center;
+}
+.nav_cont{
+	/* 上、左右、下 */
+	padding:0 18px 4px;
+	border-bottom: #D7D7D7 dotted 1px;
+	/* 让外边框-1px来覆盖最底层ul的虚线 */
+	margin-bottom: -1px;
+}
+.nav_cont h3{
+	font-size: 12px;
+	height: 30px;
+	line-height: 30px;
+}
+.navCont_list{
+	line-height: 25px;
+}
+.navCont_list li{
+	float: left;
+	width: 50%;
 }
